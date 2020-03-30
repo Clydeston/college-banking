@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+.btn-green {
+    background-color: green;
+    color: #fff !important;
+    transition: 120ms ease-in-out;
+}
+
+.btn-green:hover {
+    background-color: #fff;
+    color: green !important;
+    border: 1px solid green;
+}
+
+.btn-red {
+    background-color: red;
+    color: #fff !important;
+    transition: 120ms ease-in-out;
+}
+
+.btn-red:hover {
+    background-color: #fff;
+    color: red !important;
+    border: 1px solid red;
+}
+
+.index-container {    
+    height: 100%;;
+}
+
+.index-data-div {
+    height: 50%;
+    -webkit-box-shadow: 1px 16px 10px 2px rgba(207,207,207,1);
+    -moz-box-shadow: 1px 16px 10px 2px rgba(207,207,207,1);
+    box-shadow: 1px 16px 10px 2px rgba(207,207,207,1);
+}
+
+.index-main-row {
+    display: flex;
+    align-items: center;    
+    justify-content: center;    
+    height: 100%;    
+}
+
+.index-row {
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+
+.login-tab, .register-tab {
+    text-align: center;
+}
+
+@media all and (max-width: 1000px) {
+    .index-main-row {
+        height: auto;
+    }
+}
+
+.account-anchor {
+    transition: 100ms ease-in-out;
+}
+
+.account-anchor:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.account-anchor.delete:hover {
+    color: red !important;
+}
